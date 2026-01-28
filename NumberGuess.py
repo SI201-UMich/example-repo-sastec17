@@ -5,6 +5,7 @@ class NumberGuess:
     def __init__(self):
         self.number = random.randint(1, 100)
         self.guess = -1
+        print("Welcome to the Number Guessing Game!")
 
     def play(self):
         while self.number != self.guess:
